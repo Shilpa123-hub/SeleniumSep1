@@ -13,7 +13,7 @@ public class Application {
 	@Test
 	public void verifyInvalidCredentials() throws IOException
 	{
-		
+		//Making changes after release 1.1
 		String[][] data = GenericMethods.getData("C:\\Users\\anily\\Desktop\\TestDataM.xlsx", "Sheet2");
 		for(int i=0;i<data.length;i++)
 		{
